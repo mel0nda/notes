@@ -25,6 +25,12 @@
   --radius:    6px;
   --radius-lg: 10px;
 }
+@font-face {
+  font-family: 'Karrik';
+  src: url('WOFF2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
 
 html, body {
   height: 100%;
