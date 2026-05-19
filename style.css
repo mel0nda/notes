@@ -25,9 +25,7 @@
     --c-slate: #2e4060;
     --c-gold: #8a6120;
 
-    --font-serif: "DM Serif Display", Georgia, serif;
-    --font-mono: "DM Mono", "Courier New", monospace;
-
+    --font-serif: "Karrik", Georgia, serif;
     --radius: 6px;
     --radius-lg: 10px;
 }
@@ -44,7 +42,7 @@ body {
     overflow: hidden;
     background: var(--bg);
     color: var(--ink);
-    font-family: var(--font-mono);
+    font-family: --font-serif;
     font-size: 13px;
 }
 
@@ -70,7 +68,7 @@ body {
 }
 
 .logo {
-    font-family: var(--font-serif);
+    font-family: --font-serif;
     font-size: 20px;
     letter-spacing: -0.02em;
     color: var(--ink);
@@ -107,7 +105,7 @@ body {
 }
 
 .label-group select {
-    font-family: var(--font-mono);
+    font-family: --font-serif;
     font-size: 11px;
     background: var(--bg);
     border: 1px solid var(--border-md);
@@ -126,7 +124,7 @@ body {
 
 /* ── Buttons ──────────────────────────────────────────── */
 .btn {
-    font-family: var(--font-mono);
+    font-family: --font-serif;
     font-size: 11px;
     letter-spacing: 0.03em;
     display: inline-flex;
